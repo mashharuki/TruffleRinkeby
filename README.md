@@ -93,6 +93,103 @@ Summary
 > Total deployments:   3
 > Final cost:          0.00847918 ETH
  ```
+ 
+ ```cmd
+  Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+5_deploy_multiSig_factory.js
+============================
+
+   Deploying 'MultiSigFactory'
+   ---------------------------
+   > transaction hash:    0x78c501d5bdb6d693b313aa4df8e3677bd8279ade998b45c87f0c6b1406fd30ec
+   > Blocks: 2            Seconds: 17
+   > contract address:    0x3f916bADD44312c30D1C3eb57a37ef3D288009Bc
+   > block number:        10793771
+   > block timestamp:     1654347420
+   > account:             0x51908F598A5e0d8F1A3bAbFa6DF76F9704daD072
+   > balance:             155.333424003621387904
+   > gas used:            1110461 (0x10f1bd)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02220922 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 10793773)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02220922 ETH
+
+
+6_deploy_safeContractProxy_factory.js
+=====================================
+
+   Deploying 'GnosisSafeProxyFactory'
+   ----------------------------------
+   > transaction hash:    0x18561733cce1aeea97674f22e40cd421f3dc12487aa7b166e8f0a0ac38e525b9
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x8b72beB69B7FC62a0403Af482609f70fB03c6e36
+   > block number:        10793775
+   > block timestamp:     1654347480
+   > account:             0x51908F598A5e0d8F1A3bAbFa6DF76F9704daD072
+   > balance:             155.317139663621387904
+   > gas used:            785651 (0xbfcf3)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01571302 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10793776)
+   > confirmation number: 2 (block: 10793777)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.01571302 ETH
+
+
+7_deploy_safeContract_factory.js
+================================
+
+   Deploying 'SafeContractFactory'
+   -------------------------------
+   > transaction hash:    0xbf2948ab3cbd2e7d6f7eb5bd97d4e05be16901575ac0ab9549a413bf76e55861
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x96cf27b3EfA3DbE9890b0a299A072F7Ff8adf0Ab
+   > block number:        10793779
+   > block timestamp:     1654347541
+   > account:             0x51908F598A5e0d8F1A3bAbFa6DF76F9704daD072
+   > balance:             155.250525343621387904
+   > gas used:            3302150 (0x326306)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.066043 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10793780)
+   > confirmation number: 2 (block: 10793781)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:            0.066043 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.10396524 ETH
+ ```
 
 ### デプロイしたコントラクトの情報
 
