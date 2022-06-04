@@ -8,7 +8,7 @@ Rinkebyにデプロイするための開発用リポジトリになります。
 
  うまくいけばコンソールに次の様に出力される。
 
- ```
+ ```cmd
  1_initial_migration.js
 ======================
 
@@ -93,3 +93,14 @@ Summary
 > Total deployments:   3
 > Final cost:          0.00847918 ETH
  ```
+
+### デプロイしたコントラクトの情報
+
+Rinkeby上のアドレス
+
+|コントラクト名|アドレス|
+|----|-----|
+|FundraiserFactory|<a href="https://rinkeby.etherscan.io/address/0x0CFAA30F17A950BA1a24504e6c4D2BafCBdB32bf">0x0CFAA30F17A950BA1a24504e6c4D2BafCBdB32bf</a>|
+|NFTFactory|<a href="https://rinkeby.etherscan.io/address/0x1B55d7D92eF282A29a24Aa10dFA1bED0aBAd681a">0x1B55d7D92eF282A29a24Aa10dFA1bED0aBAd681a</a>|
+|MyTokenFactory|<a href="https://rinkeby.etherscan.io/address/0xA7636EF9cA7260acD6d1B9226686c8a06cC55EaE">0xA7636EF9cA7260acD6d1B9226686c8a06cC55EaE</a>|
+|DEX|<a href="https://etherscan.io/address/0xbCc9468062C427E937bc38b100F5821728223068">0xbCc9468062C427E937bc38b100F5821728223068</a>|
