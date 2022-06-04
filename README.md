@@ -1,0 +1,2 @@
+# TruffleRinkeby
+Rinkebyにデプロイするための開発用リポジトリになります。
